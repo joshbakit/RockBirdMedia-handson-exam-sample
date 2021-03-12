@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+p{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+h2{
+    font-family: 'Poppins';
+    font-size: 32px;
+    font-weight: 600;
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    background: #000;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 16px;
+    border-style: none;
+
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.6s;
+    transition-duration: 0.2s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+
+button:hover{
+    color: rgb(255, 206, 206);
+    transition: .4s;
+
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.heading{
+    background-image: url('/assets/img/Banner.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85vh;
+    margin:0;
+    padding: 0;
+}
+
+.heading-text-section{
+    width: 400px;
+    color: #fff;
+}
+
+.heading-text-section h1{
+    font-size: 38px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.heading-text-section p{
+    margin-top: 1em;
+}
+
+.over-view {
+    padding: 4rem 4rem 0rem 4rem;
+    background-color: rgb(247, 247, 247);
+}
+
+.overview-img img{  
+    width: 500px;
+    height: auto;
+}
+.overview-text-section{
+    padding: 4rem;
+}
+
+.icons{
+    padding: 4rem 4rem 12rem 4rem;
+}
+
+.icon-img{
+    width: 75px;
+    height: 75px;
+}
+
+.icons .icon-items p{
+    font-size: 14px;
+}
+
+.icons h2{
+    padding: 6rem;
+}
+
+.info{
+    background: rgb(124, 124, 124);
+    color: #fff;
+    height: 70vh;
+}
+
+.info div{
+    padding: 6rem;
+}
+
+.info h2{
+    padding-bottom: 2rem;
+}
+
+.start-project{
+    background: url('/assets/img/why-attend-bg.png'); 
+    background-size: cover;
+    height: 80vh;
+}
+
+.start-project-text-section{
+    width: 500px;
+}
+
+.start-project-text-section h1{
+    padding-bottom: 4rem;
+}
+
+.footer{
+    background-color: #000;
+    height: 30vh;
+    color: #fff;
+}
+
+.footer h2{
+    font-size: 22px;
+}
