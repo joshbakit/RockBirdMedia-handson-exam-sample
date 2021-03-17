@@ -4,132 +4,107 @@
     font-family: 'Poppins';
 }
 
-p{
-    font-size: 16px;
-    font-weight: 500;
+h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 h2{
-    font-family: 'Poppins';
-    font-size: 32px;
-    font-weight: 600;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 1.9em;
+    text-transform: uppercase;
+    
+}
+
+p{
+    font-size: 16px;
 }
 
 button{
-    width: 150px;
-    height: 40px;
-    background: #000;
-    box-sizing: border-box;
+    background-color: #000;
+    border-radius: 2px;
+    font-size: 1rem;
     color: #fff;
-    font-size: 16px;
-    border-style: none;
+    width: 100px;
+    height: 40px;
 
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    -webkit-transition-duration: 0.6s;
-    transition-duration: 0.2s;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
     -webkit-transition-property: transform;
     transition-property: transform;
 }
 
 button:hover{
-    color: rgb(255, 206, 206);
-    transition: .4s;
-
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
+    color: rgb(255, 213, 213);
 }
 
-.heading{
+header{
     background-image: url('/assets/img/Banner.png');
-    background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     height: 85vh;
-    margin:0;
-    padding: 0;
 }
 
-.heading-text-section{
-    width: 400px;
+.overview{
+    height: 90vh;
+    background: #ecf0f1;
+}
+
+.overview img{
+    height: 115%;
+    width: 50%;
+}
+
+.overview_text_section div{
+    font-size: 13px;
+}
+
+.work-together{
+    height: 85vh;
+    padding-top: 6rem;
+}
+
+.work-together div img{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.work-together .icons{
+    margin-top: 10rem;
+}
+
+.discover-analysis{
+    background-color: #7f8c8d;
+    height: 65vh;
+    padding-top: 5rem;
     color: #fff;
-}
-
-.heading-text-section h1{
-    font-size: 38px;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-.heading-text-section p{
-    margin-top: 1em;
-}
-
-.over-view {
-    padding: 4rem 4rem 0rem 4rem;
-    background-color: rgb(247, 247, 247);
-}
-
-.overview-img img{  
-    width: 500px;
-    height: auto;
-}
-.overview-text-section{
-    padding: 4rem;
-}
-
-.icons{
-    padding: 4rem 4rem 12rem 4rem;
-}
-
-.icon-img{
-    width: 75px;
-    height: 75px;
-}
-
-.icons .icon-items p{
-    font-size: 14px;
-}
-
-.icons h2{
-    padding: 6rem;
-}
-
-.info{
-    background: rgb(124, 124, 124);
-    color: #fff;
-    height: 70vh;
-}
-
-.info div{
-    padding: 6rem;
-}
-
-.info h2{
-    padding-bottom: 2rem;
 }
 
 .start-project{
-    background: url('/assets/img/why-attend-bg.png'); 
+    height: 60vh;
+    background: url('/assets/img/why-attend-bg.png');
     background-size: cover;
-    height: 80vh;
+   
 }
 
-.start-project-text-section{
-    width: 500px;
-}
-
-.start-project-text-section h1{
-    padding-bottom: 4rem;
-}
-
-.footer{
-    background-color: #000;
-    height: 30vh;
+footer{
+    height: 20vh;
+    background: #151616;
     color: #fff;
+    font-size: 1rem;
 }
 
-.footer h2{
-    font-size: 22px;
+footer .text-center{
+    font-size: 2rem;
 }
