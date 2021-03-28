@@ -32,6 +32,7 @@ button{
     color: #fff;
     width: 100px;
     height: 40px;
+    text-transform: uppercase;
 
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
@@ -52,17 +53,16 @@ header{
     background-image: url('/assets/img/Banner.png');
     background-size: cover;
     background-position: center;
-    height: 85vh;
+    height: 80vh;
 }
 
 .overview{
-    height: 90vh;
-    background: #ecf0f1;
+    background-color: #ecf0f1;
 }
 
 .overview img{
-    height: 115%;
-    width: 50%;
+    height: 400px;
+    width: 400px;
 }
 
 .overview_text_section div{
@@ -70,7 +70,6 @@ header{
 }
 
 .work-together{
-    height: 85vh;
     padding-top: 6rem;
 }
 
@@ -86,7 +85,6 @@ header{
 
 .discover-analysis{
     background-color: #7f8c8d;
-    height: 65vh;
     padding-top: 5rem;
     color: #fff;
 }
